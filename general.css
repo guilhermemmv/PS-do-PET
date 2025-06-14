@@ -1,0 +1,57 @@
+* {
+    font-family: "Alexandria", alexandria;
+    font-weight: bold;
+}
+
+html,
+body {
+    margin: 0;
+    justify-content: center;
+    height: 100%;
+    background-color: #E6F3FB;
+}
+
+#header {
+    font-size: 130%;
+    color: #071218;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.topbar {
+    background-color: #1E3B48;
+    overflow: hidden;
+    text-align: center;
+}
+
+#topbar img {
+    margin: auto;
+}
+
+.box {
+    background-color: #335E71;
+    height: 30%;
+    margin: 0 30%;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.box p,
+label {
+    position: relative;
+    padding-top: 5%;
+    color: #E6F3FB;
+}
+
+.box button {
+    background-color: #1E3B48;
+    color: #E6F3FB;
+    border: none;
+    height: 25%;
+    width: 42%;
+    border-radius: 5px;
+    margin: 1% 0;
+}

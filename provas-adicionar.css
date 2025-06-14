@@ -1,0 +1,85 @@
+#salvar {
+    background-color: #5B9BB9;
+}
+
+.box {
+    margin: 0 20%;
+    height: 50%;
+}
+
+.box button {
+    padding: 0;
+}
+
+.box button {
+    width: 30%;
+    padding: 1% 7%;
+    height: 15%;
+    vertical-align: middle;
+}
+
+#info {
+    padding: 0 5%;
+    text-align: center;
+}
+
+#info #ano {
+    width: 10%;
+    margin-right: 2%;
+}
+
+#info #modalidade {
+    width: 20%;
+    margin-right: 2%;
+}
+
+#info #fase {
+    width: 10%;
+}
+
+#info #idprova {
+    width: 20%;
+    margin-top: 1.5%;
+}
+
+input {
+    background-color: #E6F3FB;
+    color: #071218;
+    border: none;
+    width: 82%;
+    height: 14%;
+    border-radius: 9px;
+    padding: 1% 3%;
+}
+
+input {
+    outline: none;
+}
+
+input::placeholder {
+    color: #071217;
+}
+
+#tgabarito {
+    padding-top: 0;
+    font-size: x-large;
+}
+
+.gabarito {
+    display: flex;
+    gap: 2rem;
+    /* space between columns */
+}
+
+.gabarito {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.gabarito button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
