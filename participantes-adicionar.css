@@ -1,6 +1,6 @@
 html,
 body {
-    height: 115%;
+    height: 100%;
 }
 
 #salvar {
@@ -9,7 +9,7 @@ body {
 
 .box {
     margin: 0 20%;
-    height: 70%;
+    height: 35%;
 }
 
 .box button {
@@ -19,7 +19,7 @@ body {
 .box button {
     width: 30%;
     padding: 1% 7%;
-    height: 15%;
+    height: 20%;
     vertical-align: middle;
 }
 
@@ -28,21 +28,26 @@ body {
     text-align: center;
 }
 
+#info #id {
+    width: 10%;
+    margin-right: 2%;
+}
+
+#info #nome {
+    width: 40%;
+}
+
 #info #ano {
     width: 10%;
     margin-right: 2%;
 }
 
-#info #modalidade {
+#info #escola {
     width: 20%;
-    margin-right: 2%;
+    margin-top: 1.5%;
 }
 
-#info #fase {
-    width: 10%;
-}
-
-#info #id {
+#info #modalidade {
     width: 20%;
     margin-top: 1.5%;
 }

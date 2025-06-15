@@ -1,15 +1,11 @@
 html,
 body {
-    height: 115%;
-}
-
-#salvar {
-    background-color: #5B9BB9;
+    height: 130%;
 }
 
 .box {
     margin: 0 20%;
-    height: 70%;
+    height: 65%;
 }
 
 .box button {
