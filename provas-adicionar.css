@@ -1,10 +1,15 @@
+html,
+body {
+    height: 115%;
+}
+
 #salvar {
     background-color: #5B9BB9;
 }
 
 .box {
     margin: 0 20%;
-    height: 50%;
+    height: 70%;
 }
 
 .box button {
@@ -50,14 +55,7 @@ input {
     height: 14%;
     border-radius: 9px;
     padding: 1% 3%;
-}
-
-input {
     outline: none;
-}
-
-input::placeholder {
-    color: #071217;
 }
 
 #tgabarito {
@@ -78,8 +76,36 @@ input::placeholder {
     margin: 0 auto;
 }
 
-.gabarito button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+.gabarito input {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
     cursor: pointer;
+    text-align: center;
+    border-radius: 30%;
+}
+
+.gabarito input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.gabarito .column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#respostas {
+  background-color: #E6F3FB;
+  width: 40%;
+  height: 22%;
+}
+
+.gabarito #rect {
+    position: absolute;
+    background-color: #E6F3FB;
+    width: 1.5%;
+    height: 1%;
+    margin-left: 2.8%;
+    margin-top: 1.7%;
 }
