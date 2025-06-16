@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="gabaritos-buscar.css">
 </head>
 
 <body>
@@ -14,14 +15,18 @@
         <img id=logo src="logo.webp">
     </div>
     <br>
-    <p id="header">Bem-vindo!</p>
+    <p id="header">Busca por gabarito</p>
     <hr>
     <br>
     <div class="box">
-        <p>Selecione o que deseja fazer</p>
-        <a href="provas.html"><button type="button">Acessar banco de provas</button></a>
-        <a href="participantes.html"><button type="button">Acessar banco de participantes</button></a>
-        <a href="gabaritos.html"><button type="button">Acessar banco de gabaritos</button></a>
+        <p>Digite as informações acerca do gabarito</p>
+            <form>
+                <label>ID Prova:</label>
+                <input><br>
+                <label>ID Participante:</label>
+                <input>
+            </form>
+        <a href="gabaritos-visualizar.html"><button type="button">Buscar</button></a>
     </div>
 </body>
 

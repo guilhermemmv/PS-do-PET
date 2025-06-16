@@ -1,0 +1,132 @@
+html,
+body {
+    height: 125%;
+}
+
+#salvar {
+    background-color: #5B9BB9;
+}
+
+.box {
+    margin: 0 15%;
+    height: 65%;
+}
+
+.box button {
+    width: 30%;
+    padding: 1% 7%;
+    height: 10%;
+    vertical-align: middle;
+}
+
+#info {
+    padding: 0 5%;
+    text-align: center;
+}
+
+#info #ano {
+    width: 10%;
+    margin-right: 2%;
+}
+
+#info #modalidade {
+    width: 20%;
+    margin-right: 2%;
+}
+
+#info #fase {
+    width: 5%;
+}
+
+#info #erro {
+    width: 5%;
+}
+
+#info #escola {
+    width: 40%;
+    margin-top: 1.5%;
+}
+
+#info #idprova {
+    width: 5%;
+}
+
+#info #aluno {
+    width: 40%;
+    margin-top: 1.5%;
+}
+
+#info #idaluno {
+    width: 5%;
+}
+
+#acertos {
+    width: 10%;
+}
+
+#nota {
+    width: 10%;
+}
+
+input {
+    background-color: #E6F3FB;
+    color: #071218;
+    border: none;
+    width: 82%;
+    height: 14%;
+    border-radius: 9px;
+    padding: 1% 3%;
+    outline: none;
+}
+
+#tgabarito {
+    padding-top: 0;
+    font-size: x-large;
+}
+
+.gabarito {
+    display: flex;
+    gap: 2rem;
+    /* space between columns */
+}
+
+.gabarito {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.gabarito input {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30%;
+}
+
+.gabarito input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.gabarito .column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#respostas {
+  background-color: #E6F3FB;
+  width: 40%;
+  height: 22%;
+}
+
+.gabarito #rect {
+    position: absolute;
+    background-color: #E6F3FB;
+    width: 2.5%;
+    height: 1%;
+    margin-left: 2.8%;
+    margin-top: 1.7%;
+}
