@@ -1,8 +1,8 @@
 .box {
-    height: 35%;
+    height: 200px;
 }
 
 .box button {
     width: auto;
-    padding: 2% 12%;
+    padding: 10px 70px;
 }

@@ -1,15 +1,15 @@
 .box {
-    height: 55%;
+    height: 340px;
 }
 
 input {
     background-color: #E6F3FB;
     color: #071218;
     border: none;
-    width: 82%;
-    height: 14%;
+    width: 480px;
+    height: 21px;
     border-radius: 9px;
-    padding: 1% 3%;
+    padding: 5px 15px;
 }
 
 input {
@@ -22,6 +22,6 @@ input::placeholder {
 }
 
 .box button {
-    height: 15%;
-    margin: 5%;
+    height: 50px;
+    margin-top: 15px;
 }
